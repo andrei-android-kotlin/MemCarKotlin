@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MemCarKt</string>
+    <string name="app_name_mainScreen">MemoryCar</string>
+    <string name="version_no_placeholder">v1.0</string>
+    <string name="btn_continue">Continue</string>
+
+
 </resources>
