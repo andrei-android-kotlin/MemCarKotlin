@@ -3,6 +3,8 @@
     <string name="app_name_mainScreen">MemoryCar</string>
     <string name="version_no_placeholder">v1.0</string>
     <string name="btn_continue">Continue</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
