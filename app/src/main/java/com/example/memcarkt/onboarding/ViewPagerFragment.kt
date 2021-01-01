@@ -31,7 +31,7 @@ class ViewPagerFragment : Fragment() {
 
         val adapter = ViewPagerAdapter(fragmentList, requireActivity().supportFragmentManager, lifecycle)
 
-
+        view.findViewById<ViewPager2>(R.id.viewPager).adapter = adapter
 
         return view
     }

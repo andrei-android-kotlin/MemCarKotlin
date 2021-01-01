@@ -8,5 +8,14 @@
         android:id="@+id/splashFragment2"
         android:name="com.example.memcarkt.SplashFragment"
         android:label="SplashFragment"
-        tools:layout="@layout/fragment_splash"/>
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment2_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.memcarkt.onboarding.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" />
 </navigation>
